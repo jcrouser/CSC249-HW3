@@ -35,9 +35,9 @@ Your task is to develop your own `traceroute` application in python using ICMP. 
 The file `ICMPtraceroute.py` contains starter code for the client-side behavior of your `traceroute` program. Your task is to fill in code in the areas marked with `#Fill in start` and `#Fill in end` in order to get your program to behave as described.
 
 ### Details
-1. As before, you do not need to be concerned about the `checksum(...)` function, as it is already given in the code.
-2. As before, this exercise also requires the use of raw sockets. In some operating systems, you may need administrator/root privileges to be able to run your `traceroute` program.
-3. This will not work for websites that block ICMP traffic.
-4. You will have to turn your firewall or antivirus software off to allow the messages to be sent and received.
+1. As before, this exercise also requires the use of raw sockets. In some operating systems, you may need administrator/root privileges to be able to run your `traceroute` program.
+2. This will not work for websites that block ICMP traffic.
+3. You will have to turn your firewall or antivirus software off to allow the messages to be sent and received.
 
-## What to hand in
+### Optional Feature
+Currently the application only prints out a list of ip addresses of all the routers along the path from source to the destination. Try using the `gethostbyname(...)` method to print out the names of each intermediate route along the route.
