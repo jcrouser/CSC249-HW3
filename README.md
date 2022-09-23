@@ -19,7 +19,7 @@ The file `ICMPpinger.py` contains starter code for the client-side behavior of y
 ### Details
 1.	In the `receiveOnePing(...)` method, you need to receive the structure `ICMP_ECHO_REPLY` and fetch the information you need, such as checksum, sequence number, time to live (TTL), etc. Take a look at the `sendOnePing(...)` method and make sure you understand what it is doing before trying to complete the `receiveOnePing(...)` method.
 2.	You do not need to be concerned about the `checksum(...)` method, as it is already given in the code.
-3.	This exercise requires the use of raw sockets. In some operating systems, you may need **administrator/root privileges** to be able to run your pringer program (i.e., you'll run the program with the command `sudo python ICMPpinger.py`).
+3.	This exercise requires the use of raw sockets. In some operating systems, you may need **administrator/root privileges** to be able to run your pinger program (i.e., you'll run the program with the command `sudo python ICMPpinger.py`).
 
 ### Testing the Pinger
 First, test your client by sending packets to localhost, that is, 127.0.0.1. Then, play around to see how your Pinger application communicates across the network by pinging servers in different continents - feel free to use the ones you found for A1!
