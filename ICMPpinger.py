@@ -139,4 +139,5 @@ def ping(host, timeout=1):
     return delay
 
 # Runs program
-ping("google.com")
+if __name__ == "__main__":
+    ping("google.com")
